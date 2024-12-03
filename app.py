@@ -25,7 +25,7 @@ def serialize(obj):
 api_key = st.secrets["openai_secret"]
 
 # Initialize the OpenAI client with the API key from secrets
-client = OpenAI(api_key=api_key)
+client = OpenAI(api_key="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")
 
 # Streamlit UI components
 st.title("OpenAI Moderation API Demo")
